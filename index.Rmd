@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 library(distill)
 #create_blog(dir = "My Blog", title = "My Blog")
-#create_post("NIBRS Questions")
+create_post("NIBRS Demographics")
 ```
 
 
