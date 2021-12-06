@@ -1,7 +1,8 @@
 ---
 title: "NIBRS Demographics"
 description: |
-  A short description of the post.
+  This post will cover the demographics of crimes happening in America.
+  This will emcompass geographical differences, race, ethnicity, gender, and age.
 author:
   - name: Unknown
 date: 2021-12-05
@@ -10,13 +11,24 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+The first page on our demographics report is the counts of crimes which can be filtered down to view only one or more different offenses. The fours charts allows users to develop a better idea of the most common demographics for a particular offense. 
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<!-- wp:image {"id":49,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/12/image.png?w=765" alt="" class="wp-image-49"/></figure>
+<!-- /wp:image -->
 
+For example, filter the tables to see only robbery. You will notice that overwhelmingly, those who commit robbery are young teens between the ages of 15-20 years old. These filters can help understand the demographics with each crime. In doing so we may be better informed and more prepared as a society.
 
+The next two sheets encompass two maps the first covers criminal offenses in the US and the other is for criminal acts in the US. To clarify the difference, a criminal act is the act that is forbidden by law while the offense is a specific way in which the crime was carried out. No distinction is made between these two tables as defined in a data dictionary. 
+
+You will notice that several states are in grey and in further inspection do not contain any applicable crime data in the year 2019. This is because as mentioned in the report, NIBRS was not required until January 1, 2021 which means there were at the time of collection approximately 12 states that did not participate. These states will be counted in the 2021 data. All data is released by the FBI in December the following year. As such, the 2021 data will not be available until December 2022. 
+
+The last sheet allows users to filter down to learn more about the locations in which particular crimes occur. For example, we will use robbery again. If you filter to see the results of robbery, you will notice that many occur on roads/sidewalks/highways. This little information is useful to know because the user will now be more aware that they are at greater risk of being robbed while walking or commuting as opposed to in their own home.
+
+These observations are only the tip of the criminal iceberg. I invite all users to explore with their own questions and learn about criminal demographics so that they may be more careful and well advised. The dashboard can be found at https://app.powerbi.com/groups/me/reports/177378e5-5ca9-4dbc-9c18-723423bfbc5b/ReportSection48de90d5ab00cc0e9d36 for all BYUI account holders.
+
+I hope you may learn from this report and benefit from the data collected by the FBI. If you have any questions for me feel free to contact me to discuss your questions.
