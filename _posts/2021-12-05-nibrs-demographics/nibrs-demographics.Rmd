@@ -4,7 +4,7 @@ description: |
   This post will cover the demographics of crimes happening in America.
   This will emcompass geographical differences, race, ethnicity, gender, and age.
 author:
-  - name: Unknown
+  - name: Jordan Watts
 date: 2021-12-05
 output:
   distill::distill_article:

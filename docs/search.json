@@ -1,11 +1,19 @@
 {
   "articles": [
     {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-05T22:08:49-07:00"
+    },
+    {
       "path": "index.html",
       "title": "NIBRS Data Analysis",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-05T22:05:53-07:00"
+      "last_modified": "2021-12-05T22:08:51-07:00"
     }
   ],
   "collections": ["posts/posts.json"]
