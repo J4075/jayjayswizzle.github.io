@@ -2,7 +2,7 @@ name: "jayjayswizzle.github.io"
 title: "NIBRS Analysis"
 description: |
   NIBRS Analysis
-output_dir: "_posts"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"

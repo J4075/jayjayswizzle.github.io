@@ -1,17 +1,7 @@
 ---
-title: "Welcome to NIBRS Analysis"
-description: |
-  Welcome to our new blog, NIBRS Analysis. We hope you enjoy 
-  reading what we have to say!
-author:
-  - name: Nora Jones 
-    url: https://jayjayswizzle.github.io/
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: 12-03-2021
-output:
-  distill::distill_article:
-    self_contained: false
+title: "NIBRS Data Analysis"
+site: distill::distill_website
+listing: posts
 ---
 
 ```{r setup, include=FALSE}
@@ -22,5 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+```{r}
+library(distill)
+#create_blog(dir = "My Blog", title = "My Blog")
+#create_post("NIBRS Questions")
+```
 
 
